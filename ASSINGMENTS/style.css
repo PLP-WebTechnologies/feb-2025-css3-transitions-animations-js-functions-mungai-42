@@ -1,0 +1,25 @@
+body {  
+    font-family: Arial, sans-serif;  
+    text-align: center;  
+    padding: 50px;  
+}  
+
+#animateButton {  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    cursor: pointer;  
+}  
+
+#animatedBox {  
+    width: 100px;  
+    height: 100px;  
+    background-color: lightblue;  
+    margin: 20px auto;  
+    transition: transform 0.5s, opacity 0.5s;  
+    opacity: 1;  
+}  
+
+.animate {  
+    transform: translateY(-30px);  
+    opacity: 0.5;  
+}
